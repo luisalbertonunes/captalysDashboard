@@ -5,12 +5,16 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { Dashboard2Component } from './dashboard2/dashboard2.component'
+import { Dashboard2Component } from './dashboard2/dashboard2.component';
+import { appComponent } from './home/app.component';
+import { chartComponent } from './charts/chart.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    Dashboard2Component
+    Dashboard2Component,
+    appComponent,
+    chartComponent
   ],
   imports: [
     BrowserModule,
